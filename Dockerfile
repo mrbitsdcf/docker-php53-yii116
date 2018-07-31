@@ -1,7 +1,7 @@
-FROM eugeneware/php-5.3
+FROM mrbits/docker-php-5.3-apache
 LABEL "Maintainer"="MrBiTs"
 LABEL "e-mail"="mrbits.dcf@gmail.com"
-LABEL "version"="0.0.1"
+LABEL "version"="0.0.2"
 
 WORKDIR /var/www/html
 RUN wget https://github.com/yiisoft/yii/archive/1.1.16.tar.gz
