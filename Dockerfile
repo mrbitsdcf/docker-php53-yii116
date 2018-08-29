@@ -1,7 +1,7 @@
 FROM mrbits/docker-php-5.3-apache
 LABEL "Maintainer"="MrBiTs"
 LABEL "e-mail"="mrbits.dcf@gmail.com"
-LABEL "version"="0.0.5"
+LABEL "version"="0.0.6"
 
 RUN apt-get update && apt-get -y install libssl1.0.0 mysql-client
 
